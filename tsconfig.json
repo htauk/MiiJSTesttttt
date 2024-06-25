@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es6",
     "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
   },
-  "include": [
-    "MiiJS/**/*.ts",
-    "script.ts"
-  ]
+  "include": ["./MiiJS/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
