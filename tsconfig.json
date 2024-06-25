@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "MiiJS/**/*.ts",
+    "script.ts"
+  ]
+}
