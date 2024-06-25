@@ -1,5 +1,11 @@
 {
+  "name": "mii-js",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "main"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
   }
 }
